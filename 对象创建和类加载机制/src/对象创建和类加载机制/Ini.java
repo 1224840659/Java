@@ -3,11 +3,13 @@ package 对象创建和类加载机制;
 import java.util.concurrent.SynchronousQueue;
 
 public class Ini {
+	
 	public static int k =0;
 	public static Ini i1 = new Ini("i1");
 	public static Ini i2 = new Ini("i2");
 	public static int i = print("i");
 	public static int n =99;
+	//每次创建对象执行初始化操作
 	public int j = print("j");
 	{
 		print("构造快");
