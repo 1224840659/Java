@@ -41,7 +41,7 @@ public static void max_heapify(int[] a, int n) {
 	}
 
 	public static void main(String[] args) {
-		int a[] = { 2, 5, 3, 3, 7, 7, 9 };
+		int a[] = { 2, 5, 3, 3, 7, 7, 9 ,10,11};
 		Sort mm = new Sort();
 		mm.sort(a);
 		for (int i = 0; i < a.length; i++) {
